@@ -7,8 +7,8 @@ let package = Package(
         .iOS("13.0")
     ],
     products: [
-        .library(name: "SwiftMessages", targets: ["SwiftMessages"]),
-        .library(name: "SwiftMessages-Dynamic", type: .dynamic, targets: ["SwiftMessages"])
+        .library(name: "SwiftMessages", targets: ["SwiftMessages"])
+//        .library(name: "SwiftMessages-Dynamic", type: .dynamic, targets: ["SwiftMessages"])
     ],
     targets: [
         .target(
